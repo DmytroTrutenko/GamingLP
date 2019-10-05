@@ -155,10 +155,14 @@ p{
 
 
 .homefront{
-
-    position: relative;
-    background: url(../img/main/homefront2.png) center center no-repeat;
+    background: url(../img/main/homefront.png) center center no-repeat;
     background-size: cover;
-    height: 600px;
+    height: 500px;
+    transition: all .2s;
 }
 
+
+.homefront:hover{
+    background: url(../img/main/city_homefront.png) center center no-repeat;
+    background-size: cover;
+}
