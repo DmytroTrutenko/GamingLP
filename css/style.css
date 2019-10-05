@@ -180,3 +180,46 @@ p{
 .homefront{
     padding: 100px 0 175px;
 }
+
+.item_1{
+    background: url(../img/main/war.png) center center no-repeat;
+    background-size: cover;
+}
+
+.button_it_1{
+    width: 100px;
+    height: 30px;
+    font-style: 30px;
+    font-weight: 500;
+    background: #eb5635;
+    color: #fff;
+    border: none;
+   
+
+}
+.item_2{
+    padding: 38px 40px;
+}
+.item_2 h3{
+    font-style: 30px;
+    font-weight: 300;
+    color: #000;
+}
+
+.item_2 p{
+    font-style: 17px;
+    font-weight: 300;
+    color: #000;
+}
+
+.item_3 h3{
+    font-style: 30px;
+    font-weight: 300;
+    color: #000;
+}
+
+
+.item_4{
+    background: url(../img/main/terror.jpg) center center no-repeat;
+    background-size: cover;
+}
