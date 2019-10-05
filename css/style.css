@@ -157,7 +157,6 @@ p{
 .homefront{
     background: url(../img/main/homefront.png) center center no-repeat;
     background-size: cover;
-    height: 500px;
     transition: all .2s;
 }
 
@@ -165,4 +164,19 @@ p{
 .homefront:hover{
     background: url(../img/main/city_homefront.png) center center no-repeat;
     background-size: cover;
+}
+
+
+.main h1{
+    color: #000;
+}
+.main h2{
+    color: #000;
+}
+.main p{
+    color: #000;
+}
+
+.homefront{
+    padding: 100px 0 175px;
 }
