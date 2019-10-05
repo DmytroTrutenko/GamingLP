@@ -1,16 +1,29 @@
+
 body{
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
 }
 
+
 .header{
+    position: relative;
     background: url(../img/main/bg-header.jpg) center center no-repeat;
     background-size: cover;
     padding: 55px 0 230px;
 }
 
+.bg-header{
+    position: absolute;
+    width: 77%;
+    left: -20%;
+    top: 0;
+    bottom: 0;
+    background: rgba(48,48,48, 0.3);
+    transform: skewX(-25deg);
+}
 
 .header-top{
+    position: relative;
     background-color: #fff;
     max-width: 1027px;
     display: flex;
@@ -33,4 +46,119 @@ body{
     margin-right: 58px;
     color: #000;
     font-family: 'Open Sans', sans-serif;
+   }
+
+.header-bot{
+    position: relative;
+    display: flex;
+    max-width: 1027px;
+    background: #fff;
+    margin-bottom: 165px;
+   
 }
+
+.menu{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.menu li{
+    list-style: none;
+    width: 16%;
+}
+
+.menu-item{
+    text-align: center;
+    background-color: #fff;
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 27px 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+.social a{
+    margin: 0 4px;;
+}
+
+h1{
+    position: relative;
+    color: #fff;
+    font-weight: 400;
+    font-size: 42px;
+    margin-bottom: 45px;
+   
+}
+
+h1::after{
+    position: absolute;
+    content: '';
+    height: 4px;
+    width: 186px;
+    bottom: -25px;
+    left: 0;
+    background-color: #eb5635;
+
+}
+
+
+h2{
+    color: #fff;
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 35px;
+}
+
+p{
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+
+.btn-header{
+    background: #fff;
+    color: #000;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 13px 35px;
+    border: none;
+    border-radius:50px;
+    text-transform: uppercase;
+    line-height: 1;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.btn-header:hover{
+    background: #eb5635;
+    color: #fff;
+}
+
+.btn-header:focus{
+    outline: none;
+}
+
+
+
+.homefront{
+
+    position: relative;
+    background: url(../img/main/homefront2.png) center center no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
